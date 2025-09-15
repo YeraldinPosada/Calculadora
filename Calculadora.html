@@ -16,22 +16,20 @@
       </div>
 
       <div class="col-4 text-center" style="background-color: rgb(56, 50, 50); padding: 15px;">
-            <label class="btn btn-secondary dropdown-toggle" for="">
+            <label>
             <p>Ingresa el Valor 1</p>
             <input type="text" id="num1">
             <p class="mt-2">Ingresa el Valor 2</p>
             <input type="text" id="num2">
             </label>
-
-            <label class="btn btn-secondary dropdown-toggle" for="">Elige una opción:</label>
             <br>
-            <select onchange="calcularResultado(this.value)">
-            <option value="0">Ingresa una opción</option>
-            <option value="1">Suma</option>
-            <option value="2">Resta</option>
-            <option value="3">Multiplicación</option>
-            <option value="4">División V1/V2</option>
-            <option value="5">Potencia V1^V2</option>
+            <select class="btn btn-secondary dropdown-toggle"  onchange="calcularResultado(this.value)">
+              <option value="0">Ingresa una opción</option>
+              <option value="1">Suma</option>
+              <option value="2">Resta</option>
+              <option value="3">Multiplicación</option>
+              <option value="4">División V1/V2</option>
+              <option value="5">Potencia V1^V2</option>
             </select>
             <div id="Opcion"></div>
       </div>
