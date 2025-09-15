@@ -23,5 +23,8 @@ function calcularResultado(opcion){
     else if(opcion==5){
         alert(valor1 + " ^ " + valor2 + " = " + (valor1 ** valor2));
     }
+    else if(opcion==0){
+        document.getElementById("Opcion").innerText = "¡Ingresa Una opción de la calculadora! <3"
+    }
 
 }
